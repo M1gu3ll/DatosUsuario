@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Datos Usuario</string>
+
+    <!-- Ingreso de datos -->
+    <string name="texto_nombre">Nombre completo</string>
+    <string name="texto_fecha">Fecha Nacimiento</string>
+    <string name="texto_telefono">Teléfono</string>
+    <string name="texto_email">Email</string>
+    <string name="texto_descripcion">Descripción Contacto</string>
+    <string name="texto_boton_siguiente">Siguiente</string>
+
+    <!-- Mostrar datos -->
+    <string name="texto_titulo">Confirmar Datos</string>
+    <string name="texto_mostrar_fecha">Fecha Nacimiento:</string>
+    <string name="texto_mostrar_telefono">Tel.</string>
+    <string name="texto_mostrar_email">Email:</string>
+    <string name="texto_mostrar_descripcion">Descripción:</string>
+    <string name="texto_boton_editar">Editar Datos</string>
+
+</resources>
