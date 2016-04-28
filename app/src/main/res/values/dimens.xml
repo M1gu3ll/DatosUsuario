@@ -3,7 +3,9 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
 
-    <dimen name="margen_top_ingreso_datos">23dp</dimen>
-    <dimen name="margen_top_fecha">20dp</dimen>
+    <dimen name="margin_top_left_right_linear">16dp</dimen>
+    <dimen name="margin_top_text_fecha">16dp</dimen>
+    <dimen name="textsize_fecha">20sp</dimen>
+    <dimen name="elevation_buttom">2dp</dimen>
 
 </resources>
