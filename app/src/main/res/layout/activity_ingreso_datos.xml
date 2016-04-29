@@ -7,7 +7,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="@dimen/heigh_botton_linear"
         android:layout_marginLeft="@dimen/margin_top_left_right_linear"
         android:layout_marginRight="@dimen/margin_top_left_right_linear"
         android:layout_marginTop="@dimen/margin_top_left_right_linear"
@@ -18,13 +18,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <EditText
+            <android.support.design.widget.TextInputEditText
                 android:id="@+id/edtNombre"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:ems="10"
-                android:hint="@string/texto_nombre"
-                android:inputType="textPersonName" />
+                android:hint="@string/texto_nombre" />
 
         </android.support.design.widget.TextInputLayout>
 
@@ -44,18 +42,17 @@
             android:layout_height="175dp"
             android:calendarViewShown="false"
             android:spinnersShown="true"
-            android:textAlignment="center" />
+            android:datePickerMode="spinner"/>
 
         <android.support.design.widget.TextInputLayout
             android:id="@+id/tilTelefono"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <EditText
+            <android.support.design.widget.TextInputEditText
                 android:id="@+id/edtTelefono"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:ems="10"
                 android:hint="@string/texto_telefono"
                 android:inputType="phone" />
 
@@ -66,11 +63,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <EditText
+            <android.support.design.widget.TextInputEditText
                 android:id="@+id/edtEmail"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:ems="10"
                 android:hint="@string/texto_email"
                 android:inputType="textEmailAddress" />
 
@@ -81,11 +77,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <EditText
+            <android.support.design.widget.TextInputEditText
                 android:id="@+id/edtDescripcion"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:ems="10"
                 android:hint="@string/texto_descripcion"
                 android:inputType="textMultiLine" />
 
