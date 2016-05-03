@@ -39,7 +39,7 @@
         <DatePicker
             android:id="@+id/dtpFecha"
             android:layout_width="match_parent"
-            android:layout_height="175dp"
+            android:layout_height="@dimen/height_datePicker"
             android:calendarViewShown="false"
             android:spinnersShown="true"
             android:datePickerMode="spinner"/>

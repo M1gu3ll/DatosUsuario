@@ -14,8 +14,9 @@
         android:id="@+id/tvTitulo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
         android:text="@string/texto_titulo"
-        android:layout_gravity="center_horizontal"/>
+        android:textSize="20sp" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -23,14 +24,10 @@
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/tvNombreUsuario"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-
-        <TextView
             android:id="@+id/tvNombre"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textSize="14sp" />
 
     </LinearLayout>
 
@@ -43,12 +40,15 @@
             android:id="@+id/tvFechaUsuario"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/texto_mostrar_fecha" />
+            android:text="@string/texto_mostrar_fecha"
+            android:textSize="14sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/tvFecha"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textSize="14sp" />
 
     </LinearLayout>
 
@@ -61,12 +61,15 @@
             android:id="@+id/tvTelefonoUsuario"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/texto_mostrar_telefono" />
+            android:text="@string/texto_mostrar_telefono"
+            android:textSize="14sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/tvTelefono"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textSize="14sp" />
 
     </LinearLayout>
 
@@ -79,12 +82,15 @@
             android:id="@+id/tvEmailUsuario"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/texto_mostrar_email" />
+            android:text="@string/texto_mostrar_email"
+            android:textSize="14sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/tvEmail"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textSize="14sp" />
 
     </LinearLayout>
 
@@ -97,12 +103,15 @@
             android:id="@+id/tvDescripcionUsuario"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/texto_mostrar_descripcion" />
+            android:text="@string/texto_mostrar_descripcion"
+            android:textSize="14sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/tvDescripcion"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textSize="14sp" />
 
     </LinearLayout>
 
@@ -111,6 +120,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:text="@string/texto_boton_editar" />
+        android:elevation="@dimen/elevation_buttom"
+        android:text="@string/texto_boton_editar"
+        android:theme="@style/BotonRaised" />
 
 </LinearLayout>
