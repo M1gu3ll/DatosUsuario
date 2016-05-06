@@ -5,9 +5,13 @@
 
     <dimen name="margin_top_left_right_linear">16dp</dimen>
     <dimen name="heigh_botton_linear">450dp</dimen>
+    <dimen name="heigh_botton_linear_land">280dp</dimen>
     <dimen name="height_datePicker">175dp</dimen>
+    <dimen name="layout_linear_textinput">380dp</dimen>
     <dimen name="margin_top_text_fecha">16dp</dimen>
-    <dimen name="textsize_fecha">20sp</dimen>
     <dimen name="elevation_buttom">2dp</dimen>
+
+    <dimen name="textsize_estandar">16sp</dimen>
+    <dimen name="textsize_titulo">20sp</dimen>
 
 </resources>

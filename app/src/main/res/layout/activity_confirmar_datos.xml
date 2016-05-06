@@ -16,7 +16,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:text="@string/texto_titulo"
-        android:textSize="20sp" />
+        android:textSize="@dimen/textsize_titulo" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -27,7 +27,7 @@
             android:id="@+id/tvNombre"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="14sp" />
+            android:textSize="@dimen/textsize_estandar" />
 
     </LinearLayout>
 
@@ -41,14 +41,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/texto_mostrar_fecha"
-            android:textSize="14sp"
+            android:textSize="@dimen/textsize_estandar"
             android:textStyle="bold" />
 
         <TextView
             android:id="@+id/tvFecha"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="14sp" />
+            android:textSize="@dimen/textsize_estandar" />
 
     </LinearLayout>
 
@@ -62,14 +62,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/texto_mostrar_telefono"
-            android:textSize="14sp"
+            android:textSize="@dimen/textsize_estandar"
             android:textStyle="bold" />
 
         <TextView
             android:id="@+id/tvTelefono"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="14sp" />
+            android:textSize="@dimen/textsize_estandar" />
 
     </LinearLayout>
 
@@ -83,14 +83,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/texto_mostrar_email"
-            android:textSize="14sp"
+            android:textSize="@dimen/textsize_estandar"
             android:textStyle="bold" />
 
         <TextView
             android:id="@+id/tvEmail"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="14sp" />
+            android:textSize="@dimen/textsize_estandar" />
 
     </LinearLayout>
 
@@ -104,19 +104,19 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/texto_mostrar_descripcion"
-            android:textSize="14sp"
+            android:textSize="@dimen/textsize_estandar"
             android:textStyle="bold" />
 
         <TextView
             android:id="@+id/tvDescripcion"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="14sp" />
+            android:textSize="@dimen/textsize_estandar" />
 
     </LinearLayout>
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btnEditar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"

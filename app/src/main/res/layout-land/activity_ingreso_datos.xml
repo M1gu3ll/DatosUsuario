@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_marginLeft="@dimen/margin_top_left_right_linear"
+    android:layout_marginRight="@dimen/margin_top_left_right_linear"
+    android:layout_marginTop="@dimen/margin_top_left_right_linear"
+    android:orientation="horizontal"
     tools:context="com.example.mvalverde.datosusuario.IngresoDatos">
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/heigh_botton_linear"
-        android:layout_marginLeft="@dimen/margin_top_left_right_linear"
-        android:layout_marginRight="@dimen/margin_top_left_right_linear"
-        android:layout_marginTop="@dimen/margin_top_left_right_linear"
+        android:layout_width="@dimen/layout_linear_textinput"
+        android:layout_height="match_parent"
         android:orientation="vertical">
 
         <android.support.design.widget.TextInputLayout
@@ -26,24 +27,6 @@
                 android:inputType="textCapWords" />
 
         </android.support.design.widget.TextInputLayout>
-
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/margin_top_text_fecha"
-            android:text="@string/texto_fecha"
-            android:textAlignment="center"
-            android:textColor="@color/colorTituloFecha"
-            android:textSize="@dimen/textsize_estandar" />
-
-        <DatePicker
-            android:id="@+id/dtpFecha"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/height_datePicker"
-            android:calendarViewShown="false"
-            android:datePickerMode="spinner"
-            android:spinnersShown="true" />
 
         <android.support.design.widget.TextInputLayout
             android:id="@+id/tilTelefono"
@@ -89,13 +72,38 @@
 
     </LinearLayout>
 
-    <Button
-        android:id="@+id/btnSiguiente"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal|bottom"
-        android:elevation="@dimen/elevation_buttom"
-        android:text="@string/texto_boton_siguiente"
-        android:theme="@style/BotonRaised" />
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-</FrameLayout>
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_top_text_fecha"
+            android:text="@string/texto_fecha"
+            android:textAlignment="center"
+            android:textColor="@color/colorTituloFecha"
+            android:textSize="@dimen/textsize_estandar" />
+
+        <DatePicker
+            android:id="@+id/dtpFecha"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_datePicker"
+            android:calendarViewShown="false"
+            android:datePickerMode="spinner"
+            android:spinnersShown="true" />
+
+        <Button
+            android:id="@+id/btnSiguiente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|bottom"
+            android:elevation="@dimen/elevation_buttom"
+            android:text="@string/texto_boton_siguiente"
+            android:theme="@style/BotonRaised" />
+
+    </LinearLayout>
+
+</LinearLayout>
