@@ -7,7 +7,7 @@
     <dimen name="heigh_botton_linear">450dp</dimen>
     <dimen name="heigh_botton_linear_land">280dp</dimen>
     <dimen name="height_datePicker">175dp</dimen>
-    <dimen name="layout_linear_textinput">380dp</dimen>
+    <dimen name="layout_linear_textinput">300dp</dimen>
     <dimen name="margin_top_text_fecha">16dp</dimen>
     <dimen name="elevation_buttom">2dp</dimen>
 
